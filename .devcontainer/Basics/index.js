@@ -32,3 +32,23 @@ console.log(Array.of(score,score2,score3));
 console.log(Array.from("Mausam"));
 let ars=[1,2,[3,4],[6,7,[8]]];
 console.log(ars.flat(Infinity));
+
+console.log(func(9))
+
+function func(num){
+return num+1;
+}
+
+
+// hoisting
+// console.log(add(5));
+// const summ=function funct(nums){
+//     return nums+1;
+// }
+
+
+// IIFE immidiate invoked function expression
+
+(function fun(){
+    console.log({name:'Mausam'})
+})();
